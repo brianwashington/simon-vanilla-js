@@ -5,8 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Simon</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  <h1>Simon!</h1>
+  <div class="main-container">
+    <div class="header">
+      <h1>Simon!</h1>
+      <button>Start Game</button>
+      <h2>Score: 100</h2>
+    </div>
+
+    <div class="gameboard">
+      <div class="game-square-row">
+        <div id="green-square" class="game-square green"></div>
+        <div id="red-square" class="game-square red"></div>
+      </div>
+
+      <div class="game-square-row">
+        <div id="yellow-square" class="game-square yellow"></div>
+        <div id="blue-square" class="game-square blue"></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

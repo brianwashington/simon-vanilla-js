@@ -11,21 +11,24 @@
   <div class="main-container">
     <div class="header">
       <h1>Simon!</h1>
-      <button>Start Game</button>
-      <h2>Score: 100</h2>
+      <button id="start-button">Start Game</button>
+      <div id="game-over">Wrong Answer, Game Over! :(</div>
+      <h2 id="score"></h2>
+      <br />
     </div>
 
     <div class="gameboard">
       <div class="game-square-row">
-        <div id="green-square" class="game-square green"></div>
-        <div id="red-square" class="game-square red"></div>
+        <div id="green-square" class="game-square green not-playing"></div>
+        <div id="red-square" class="game-square red not-playing"></div>
       </div>
 
       <div class="game-square-row">
-        <div id="yellow-square" class="game-square yellow"></div>
-        <div id="blue-square" class="game-square blue"></div>
+        <div id="yellow-square" class="game-square yellow not-playing"></div>
+        <div id="blue-square" class="game-square blue not-playing"></div>
       </div>
     </div>
   </div>
 </body>
+<script src="./scripts/index.js"></script>
 </html>
